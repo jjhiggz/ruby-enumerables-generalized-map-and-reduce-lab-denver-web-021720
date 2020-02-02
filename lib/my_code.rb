@@ -11,15 +11,15 @@ end
 
 def reduce(array,sp=nil)
  if sp
-   num1=sp
+   t=sp
    i=0
  else
-   num1=array[0]
+   t=array[0]
    i=0
  end
  while i<array.length do
-      t=t+yield(array[i])
-      i += 1
+    t += yield(t,array[i])
+    i=i+1
  end
 return t
 end
