@@ -14,7 +14,7 @@ def reduce(array,sp=nil)
    t=sp
    i=0
  else
-   t=0]
+   t=0
    i=0
  end
  while i<array.length do
