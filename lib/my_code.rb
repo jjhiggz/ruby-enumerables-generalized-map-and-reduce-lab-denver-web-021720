@@ -20,7 +20,5 @@ def reduce(array,sp=nil)
       t=t+yield(array[i])
       i += 1
  end
-
-
-
+return t
 end
