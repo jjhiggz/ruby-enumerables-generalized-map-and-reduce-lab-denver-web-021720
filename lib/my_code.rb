@@ -9,7 +9,7 @@ def map(array)
   return new
 end
 
-def reduce(array,t==0)
+def reduce(array,t=0)
   i=0
  while i<array.length do
       t=t+yield(array[i])
