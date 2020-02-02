@@ -14,8 +14,8 @@ def reduce(array,sp=nil)
    t=sp
    i=0
  else
-   t=0
-   i=0
+   t=array[i]
+   i=1
  end
  while i<array.length do
     t += yield(t,array[i])
