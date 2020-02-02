@@ -1,4 +1,2 @@
-def map(array)
-  yield
-  return array 
+def map()
 end
